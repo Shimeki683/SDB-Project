@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Fontawesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap CSS -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+
+  <!-- Link to own CSS -->
+  <link rel="stylesheet" href="css/mos-outlets-shop-list.css">
+
+</head>
+
+<body>
+  <!-- external logo -->
+  <div class="d-none d-lg-block text-center mb-2">
+    <a class="navbar-brand" href="#">
+      <img src="http://www.mosburger.com.sg/images/mos_logo.png" alt="">
+    </a>
+  </div>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
+    <div class="container-fluid">
+      <!-- internal logo -->
+      <a class="navbar-brand d-lg-none" href="#">
+        <img src="http://www.mosburger.com.sg/images/mos_logo.png" alt="">
+      </a>
+
+      <!-- button -->
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- navlinks : ul -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              About Mos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="about-mos_origins.html">Origins</a></li>
+              <li><a class="dropdown-item" href="about-Global-Network.html">Global Network</a></li>
+              <li><a class="dropdown-item" href="about-mos-timeline.html">Mos Timeline</a></li>
+              <li><a class="dropdown-item" href="about-employment.html">Employment</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mos-menu-main-menu-b.html">Mos Menu</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Mos Outlets
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item active" href="#">Shop List</a></li>
+              <li><a class="dropdown-item" href="mos-outlets-sg-map.html">Singapore Map</a></li>
+            </ul>
+          </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mos-cafe.html">Mos Cafe</a>
+        </li>
+        </ul>
+
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> 
+
+      </div>
+
+    </div>
+  </nav>
+
+  <table class="table">
+    <thead class="thead-dark">
+      <tr class="table-danger">
+        <th scope="col"><b>BREAKFAST/DELIVERY</b></th>
+        <th scope="col"><b>PLACE</b></th>
+        <th scope="col"><b>ADDRESS</b></th>
+        <th scope="col"><b>TELEPHONE</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">CENTRAL</th>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Plaza Singapura</td>
+        <td >68 Orchard Road #B1-01 Plaza Singapura 238839</td>
+        <td>(+65) 6883 0026</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>The Centrepoint</td>
+        <td >176 Orchard Road #B1-06, The Centrepoint 238843</td>
+        <td>(+65) 6694 3204</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_breakfast.png"></td>
+        <td>China Square</td>
+        <td >51 Telok Ayer Street #01-07 048441</td>
+        <td>(+65) 6222 7545</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_breakfast.png"></td>
+        <td class="shopname">Millenia Walk</td>
+        <td>9 Raffles Boulevard, #01-99/100 Millenia Walk, 039596</td>
+        <td class="telephone">(+65) 6837 3918</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_breakfast.png"><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">HarbourFront Centre</td>
+        <td>1 Maritime Square #01-95/96/97 HarbourFront Centre, 099253</td>
+        <td class="telephone">(+65) 6274 3349</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">Cathay Cineleisure Orchard</td>
+        <td>8 Grange Road #01-06 Cathay Cineleisure Orchard 239695</td>
+        <td class="telephone">(+65) 6235 7055</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_breakfast.png"><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">Novena Square</td>
+        <td>238 Thomson Road #01-54/55 Novena Square 307683</td>
+        <td class="telephone">(+65) 6352 5431</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_breakfast.png"><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">100 AM</td>
+        <td>100 Tras Street #01-12 100 AM 079027</td>
+        <td class="telephone">(+65) 6694 8482</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_breakfast.png"></td>
+        <td class="shopname">Marina Bay Financial Centre</td>
+        <td>12 Marina Boulevard #01-03, Marina Bay Financial Tower 3 018982</td>
+        <td class="telephone">(+65) 6443 1176</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_breakfast.png"><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">Marina One</td>
+        <td>5 Straits View #B2-45 018936</td>
+        <td class="telephone">(+65) 6282 4350</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_breakfast.png"></td>
+        <td class="shopname">Suntec City Mall</td>
+        <td>3 Temasek Boulevard #B1-122, Suntec City Mall 038983</td>
+        <td class="telephone">&nbsp;</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">Tiong Bahru Plaza</td>
+        <td>302 Tiong Bahru Road B1-139, Tiong Bahru Plaza 168732</td>
+        <td class="telephone">(+65) 6264 4482</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_breakfast.png"></td>
+        <td class="shopname">Republic Plaza</td>
+        <td>9 Raffles Place #B1-06 Republic Plaza 048619</td>
+        <td class="telephone">(+65) 6226 1525</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">CT Hub 2 (Deliveroo Edition)</td>
+        <td>114 Lavender Street #01-12 CT Hub 2 338729</td>
+        <td class="telephone">&nbsp;</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">City Square Mall</td>
+          <td>180 Kitchener Road #B2-04 City Square Mall 208539</td>
+          <td class="telephone">(+65) 6509 4689</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">MOS Burger Express@Holland Village</td>
+          <td>200 Holland Avenue #B1-03 Holland Village MRT Station 278995</td>
+          <td class="telephone">(+65) 6235 5721</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_breakfast.png"><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">MOS CAFÉ Raffles City</td>
+          <td>252 North Bridge Road #B1-38 Raffles City Shopping Centre 179103</td>
+          <td class="telephone">(+65) 6338 7355</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_breakfast.png"><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">MOS CAFÉ Takashimaya S.C.</td>
+          <td>Orchard Road #B2-32 Takashimaya Shopping Centre 238872</td>
+          <td class="telephone">(+65) 6734 7316</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">MOS CAFE Great World</td>
+          <td>1 Kim Seng Promenade #01-112 Great World 237994</td>
+          <td class="telephone">(+65) 6235 5161</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <th scope="row">NORTH</th>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_breakfast.png"><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">Bishan Junction 8</td>
+          <td>9 Bishan Place #01-19 Junction 8 Shopping Centre 579837</td>
+          <td class="telephone">(+65) 6354 2225</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">Causeway Point</td>
+          <td>1 Woodlands Square #01-13 Causeway Point 738099</td>
+          <td class="telephone">(+65) 6891 0588</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_breakfast.png"><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">Toa Payoh HDB Hub</td>
+          <td>Blk 490 Toa Payoh Lor 6 #01-13 (HDB Hub) 310490</td>
+          <td class="telephone">(+65) 6352 9161</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_breakfast.png"><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">AMK Hub</td>
+          <td>53 Ang Mo Kio Ave 3 #01-33 AMK Hub 569933</td>
+          <td class="telephone">(+65) 6753 8204</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">Nex</td>
+          <td>23 Serangoon Central, Nex #B2-02/03/04 556083</td>
+          <td class="telephone">(+65) 6509 9481</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">Compass One</td>
+          <td>1 Sengkang Square #01-09 Compass One 545078</td>
+          <td class="telephone">(+65) 6384 6106</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">Northpoint City</td>
+          <td>930 Yishun Avenue 2 #01-19, Northpoint 769098</td>
+          <td class="telephone">(+65) 6257 2714</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">Kampung Admiralty</td>
+          <td>676 Woodlands Drive 71 #01-09 Kampung Admiralty 730676</td>
+          <td class="telephone">(+65) 6264 4543</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_breakfast.png"><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">Heartland Mall Kovan</td>
+          <td>14 Tampines Road #01-11 Heartland Mall Kovan 535067</td>
+          <td class="telephone">(+65) 6214 3055</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">Waterway Point</td>
+          <td>3 Punggol Central #B1-k9, Waterway Point East Wing 828761</td>
+          <td class="telephone">(+65) 6245 2583</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">Hougang Mall</td>
+          <td>90 Hougang Ave 10 #04-10, Hougang Mall 538766</td>
+          <td class="telephone">(+65) 6246 6820</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">18 Tai Seng</td>
+          <td>18 Tai Seng Street, #01-05/06, 18 Tai Seng 539775</td>
+          <td class="telephone">(+65) 6241 9158</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <th scope="row">EAST</th>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">Parkway Parade</td>
+          <td>80 Marine Parade Road #B1-18 Parkway Parade 449269</td>
+          <td class="telephone">(+65) 6345 9720</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_breakfast.png"><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">Tampines Mall</td>
+          <td>4 Tampines Central 5 #B1-K1 Tampines Mall 529510</td>
+          <td class="telephone">(+65) 6784 3983</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_breakfast.png"><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">Bedok Mall</td>
+          <td>311 New Upper Changi Road #B2-29 Bedok Mall 467360</td>
+          <td class="telephone">(+65) 6844 9571</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_breakfast.png"><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">Paya Lebar Square</td>
+          <td>60 Paya Lebar Road #01-72/73/K4/K5 Paya Lebar Square 409051</td>
+          <td class="telephone">(+65) 6702 2821</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_breakfast.png"><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">White Sands</td>
+          <td>1 Pasir Ris Central Street 3 #02-24 &amp; #02-K1 White Sands 518457</td>
+          <td class="telephone">(+65) 6385 4836</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">Our Tampines Hub</td>
+          <td>1 Tampines Walk #01-85 Our Tampines Hub 528523</td>
+          <td class="telephone">(+65) 6345 0089</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="shopname">Eastpoint Mall</td>
+          <td>3 Simei Street 6 #01-07/K3 Eastpoint Mall 528833</td>
+          <td class="telephone">(+65) 6223 6218</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_breakfast.png"></td>
+        <td class="shopname">MOS CAFE Jewel Changi Airport</td>
+          <td>78 Airport Blvd #B2-211 Jewel Changi Airport 819666</td>
+          <td class="telephone">(+65) 6214 9428</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <th scope="row">WEST</th>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">Jurong Point</td>
+          <td>1 Jurong West Central 2 #01-30A Jurong Point Shopping Centre 648886</td>
+          <td class="telephone">(+65) 6397 1183</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_breakfast.png"><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">LOT ONE</td>
+          <td>21 Choa Chu Kang Ave 4 #B1-K7/K8 LOT ONE Shopper's Mall 689812</td>
+          <td class="telephone">(+65) 6767 8229</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">JEM</td>
+          <td>50 Jurong Gateway #05-03 Jem 608549</td>
+          <td class="telephone">(+65) 6734 7298</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">JCube</td>
+          <td>2 Jurong East Central #01-08 JCube 609731</td>
+          <td class="telephone">(+65) 6694 0668</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_breakfast.png"><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">Fusionopolis One</td>
+          <td>1 Fusionopolis Way #01-05 Fusionopolis One 138632</td>
+          <td class="telephone">(+65) 6463 1187</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">Hillion Mall</td>
+          <td>17 Petir Road #B2-60 Hillion Mall 678278</td>
+          <td class="telephone">(+65) 6278 0082</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">Clementi Collective</td>
+          <td>25 Pandan Crescent #B1-01 Kitchen 24, TIC Tech Centre 128477</td>
+          <td class="telephone">(+65) 6254 9091</td>
+      </tr>
+      <tr>
+        <td><img src="Icons/icon_delivery.png"></td>
+        <td class="shopname">MOS Burger Express@Bukit Gombak</td>
+                <td>802 Bukit Batok West Avenue 5 
+        #01-13 Bukit Gombak MRT Station 659083
+        </td>
+        <td class="telephone">&nbsp;</td>
+      </tr>
+  </tbody>
+
+  <script src="bootstrap/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

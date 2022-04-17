@@ -1,0 +1,35 @@
+.navbar-brand>img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 120px;
+    text-align: center;
+}
+
+.nav-link, .dropdown-item {
+    padding-top: 10px;
+    font-family: Beau Rivage;
+    font-size: 1.5rem;
+    display: inline-block;
+    list-style-type: none;
+    color: #A60A33 !important;
+}
+.nav-link:hover {
+    color: #F20530!important;
+    padding-bottom: 1px;
+    border-bottom: 5px solid #F20530;
+}
+.dropdown-item:hover {
+    color: rgb(41, 41, 41) !important;
+    background-color: rgb(254, 229, 229);
+}
+.carousel-inner-news{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: rgb(254, 229, 229);
+}
+.contents{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
